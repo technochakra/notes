@@ -20,3 +20,6 @@ Add dependency to package.json
 ##### prod
 >npm install <package_name> --save
 
+##### upgrade depenencies in package.json
+> npm-check-updates or ncu
+
