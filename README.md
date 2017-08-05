@@ -10,3 +10,10 @@ Cleanup Docker Images
 Stop all docker instances
 > docker stop $(docker ps -a -q)
 > docker rm $(docker ps -a -q)
+
+## npm Commands
+Add dependency to package.json
+##### dev
+npm install <package_name> --save-dev
+##### prod
+npm install <package_name> --save
