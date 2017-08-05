@@ -9,3 +9,4 @@ Cleanup Docker Images
 
 Stop all docker instances
 > docker stop $(docker ps -a -q)
+> docker rm $(docker ps -a -q)
