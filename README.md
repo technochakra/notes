@@ -23,3 +23,9 @@ Add dependency to package.json
 ##### upgrade depenencies in package.json
 > npm-check-updates or ncu
 
+## Kubernetes commands
+##### minikube
+> minikube start
+
+##### kubectl
+kubectl get nodes
