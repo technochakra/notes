@@ -15,10 +15,10 @@ Stop all docker instances
 ## npm Commands
 Add dependency to package.json
 ##### dev
->npm install <package_name> --save-dev
+> npm install <package_name> --save-dev
 
 ##### prod
->npm install <package_name> --save
+> npm install <package_name> --save
 
 ##### upgrade depenencies in package.json
 > npm-check-updates or ncu
@@ -26,6 +26,17 @@ Add dependency to package.json
 ## Kubernetes commands
 ##### minikube
 > minikube start
+> minikube stop
+> minikube status
+> minikube delete
+> minikube dashboard
+
 
 ##### kubectl
-kubectl get nodes
+> kubectl get nodes
+> kubectl cluster-info
+> kubectl describe node minikube
+> kubectl get deployment
+> kubectl delete pods <podname>
+> kubectl delete deployments <deployment name>
+> kubectl get pods --all-namespaces
