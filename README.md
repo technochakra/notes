@@ -26,17 +26,27 @@ Add dependency to package.json
 ## Kubernetes commands
 ##### minikube
 > minikube start
+
 > minikube stop
+
 > minikube status
+
 > minikube delete
+
 > minikube dashboard
 
 
 ##### kubectl
 > kubectl get nodes
+
 > kubectl cluster-info
+
 > kubectl describe node minikube
+
 > kubectl get deployment
+
 > kubectl delete pods <podname>
+
 > kubectl delete deployments <deployment name>
+
 > kubectl get pods --all-namespaces
