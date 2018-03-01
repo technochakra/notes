@@ -20,8 +20,15 @@ Add dependency to package.json
 ##### prod
 > npm install <package_name> --save
 
+##### check depenencies that are out of date
+> npm outdated
+
 ##### upgrade depenencies in package.json
 > npm-check-updates or ncu
+or 
+> npm update
+
+
 
 ## Kubernetes commands
 ##### minikube
