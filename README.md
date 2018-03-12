@@ -71,7 +71,7 @@ or
 
 ### ctrlp
 ##### start ctrlp in the working_directory
-> :CtrlPClear working_directory
+> :CtrlP working_directory
 
 ##### clear ctrlp caches
 > :CtrlPClearAllCaches
