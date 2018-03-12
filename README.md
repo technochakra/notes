@@ -28,6 +28,15 @@ Add dependency to package.json
 or 
 > npm update
 
+## brew Commands
+##### update brew itself and the formulae
+> brew update
+
+##### update brew installed software
+> brew upgrade
+
+##### clean old versions of brew installed software (good for reclaiming diskspace).
+> brew cleanup
 
 
 ## Kubernetes commands
@@ -57,3 +66,12 @@ or
 > kubectl delete deployments <deployment name>
 
 > kubectl get pods --all-namespaces
+
+## Vim Commands
+
+### ctrlp
+##### start ctrlp in the working_directory
+> :CtrlPClear working_directory
+
+##### clear ctrlp caches
+> :CtrlPClearAllCaches
