@@ -69,6 +69,9 @@ or
 
 ## Vim Commands
 
+### format html using external program (tidy).
+:!tidy -mi -xml -wrap 0 %
+
 ### ctrlp
 ##### start ctrlp in the working_directory
 > :CtrlP working_directory
