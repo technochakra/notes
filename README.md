@@ -78,3 +78,7 @@ or
 
 ##### clear ctrlp caches
 > :CtrlPClearAllCaches
+
+## Misc Commands
+##### decode base64 on commandline
+> echo <base64_string> | base64 --decode
