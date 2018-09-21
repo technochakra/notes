@@ -51,6 +51,9 @@ or
 
 > minikube dashboard
 
+> brew cask reinstall minikube
+
+
 
 ##### kubectl
 > kubectl get nodes
