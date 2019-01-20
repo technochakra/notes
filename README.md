@@ -70,6 +70,17 @@ or
 
 > kubectl get pods --all-namespaces
 
+## Raspberry Pi
+
+##### Setup WiFi 
+> sudo raspi-config
+
+##### Check SSID currently connected to
+> iwgetid
+
+##### Scan SSIDs
+> sudo iwlist wlan0 scan
+
 ## Vim Commands
 
 ### format html using external program (tidy).
