@@ -81,6 +81,9 @@ or
 ##### Scan SSIDs
 > sudo iwlist wlan0 scan
 
+##### Manually edit SSIDs
+> sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
+
 ## Vim Commands
 
 ### format html using external program (tidy).
