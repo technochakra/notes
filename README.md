@@ -99,3 +99,8 @@ or
 ## Misc Commands
 ##### decode base64 on commandline
 > echo <base64_string> | base64 --decode
+
+## Octave Commands
+##### Fix GNU Plot QT errors on Mac
+> setenv("GNUTERM","qt")
+
