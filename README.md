@@ -56,6 +56,15 @@ or
 
 
 ##### kubectl
+
+##### get all resource types - pods, services, deamonsets, replicasets, etc.
+> kubectl get all --all-namespaces -o wide
+
+> watch kubectl get all --all-namespaces -o wide
+
+##### get more data of resource types
+> kubectl describe all --all-namespaces
+
 > kubectl get nodes
 
 > kubectl cluster-info
@@ -69,6 +78,18 @@ or
 > kubectl delete deployments <deployment name>
 
 > kubectl get pods --all-namespaces
+
+##### start minikube using hyperkit (need to brew install it)
+minikube --vm-driver=hyperkit
+
+##### ssh into minikube
+> minikube ssh
+
+##### ssh into minikube
+> minikube stop 
+
+##### Install busybox and run network utilities
+> kubectl exec busybox nslookup kubernetes.default
 
 ## Raspberry Pi
 
