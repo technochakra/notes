@@ -53,6 +53,9 @@ or
 
 > brew cask reinstall minikube
 
+##### start minikube using hyperkit (need to brew install it)
+minikube --vm-driver=hyperkit
+
 
 
 ##### kubectl
@@ -79,14 +82,6 @@ or
 
 > kubectl get pods --all-namespaces
 
-##### start minikube using hyperkit (need to brew install it)
-minikube --vm-driver=hyperkit
-
-##### ssh into minikube
-> minikube ssh
-
-##### ssh into minikube
-> minikube stop 
 
 ##### Install busybox and run network utilities
 > kubectl exec busybox nslookup kubernetes.default
