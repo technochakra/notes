@@ -54,7 +54,7 @@ or
 > brew cask reinstall minikube
 
 ##### start minikube using hyperkit (need to brew install it)
-minikube --vm-driver=hyperkit
+> minikube --vm-driver=hyperkit
 
 
 
@@ -103,7 +103,7 @@ minikube --vm-driver=hyperkit
 ## Vim Commands
 
 ### format html using external program (tidy).
-:!tidy -mi -xml -wrap 0 %
+> :!tidy -mi -xml -wrap 0 %
 
 ### ctrlp
 ##### start ctrlp in the working_directory
