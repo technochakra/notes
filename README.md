@@ -120,3 +120,14 @@ or
 ##### Fix GNU Plot QT errors on Mac
 > setenv("GNUTERM","qt")
 
+## ssh
+##### generate ssh keys
+> ssh-keygen -t rsa -b 4096 -C "<email_id>@gmail.com"
+
+##### start ssh-agent
+> eval "$(ssh-agent -s)"
+> ssh-add -K path_to_id_pub_file
+
+
+
+
