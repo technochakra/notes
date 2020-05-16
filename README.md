@@ -7,10 +7,14 @@ Cleanup Docker Images
 
 > docker images --filter dangling=true -q | sort -u | xargs docker rmi 
 
+> docker system prune
+
 Stop all docker instances
 > docker stop $(docker ps -a -q)
 
 > docker rm $(docker ps -a -q)
+
+
 
 ## npm Commands
 Add dependency to package.json
