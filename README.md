@@ -16,11 +16,17 @@ Stop all docker instances
 
 docker-compose commands
 > docker-compose build
+
 > docker-compose up
+
 > docker-compose start
+
 > docker-compose stop
+
 > docker-compose logs
+
 > docker-compose ps
+
 
 
 
