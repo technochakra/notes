@@ -134,6 +134,12 @@ or
 ##### decode base64 on commandline
 > echo <base64_string> | base64 --decode
 
+##### generate random password on commandline
+> openssl rand -base64 13
+
+##### process json in bash
+> curl -s  url_that_returns_json | jq  '.field_in_json'
+
 ## Octave Commands
 ##### Fix GNU Plot QT errors on Mac
 > setenv("GNUTERM","qt")
