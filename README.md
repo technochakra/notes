@@ -153,5 +153,12 @@ or
 > ssh-add -K path_to_id_pub_file
 
 
+## git
+##### revert local changes to a file
+> git checkout -- <file>
+  
+##### create tag
+> git tag -a <tagname>
+ 
 
 
