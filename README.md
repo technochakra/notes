@@ -156,9 +156,30 @@ or
 ## git
 ##### revert local changes to a file
 > git checkout -- <file>
-  
+
+##### revert local changes after a commit
+> git reset <changelist_of_new_HEAD_from_git_log>
+
+
 ##### create tag
 > git tag -a <tagname>
  
+## mongoDB
+##### connect mongo client with authentication
+> mongo --username <username> --password --authenticationDatabase <db_of_username> --host <host_of_mongodb> --port <port_of_mongodb>
+  
+##### list dbs (from shell)
+> show dbs
+
+##### switch dbs (from shell)
+> use <database name>
+
+##### list users (from shell after a use db command)
+> show users
+
+
+
+
+
 
 
