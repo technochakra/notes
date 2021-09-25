@@ -41,10 +41,20 @@ Add dependency to package.json
 ##### check dependencies that are out of date
 > npm outdated
 
-##### upgrade dependencies in package.json
+##### upgrade dependencies in package.json (safe upgrades)
 > npm-check-updates or ncu
 or 
 > npm update
+
+##### upgrade dependencies in package.json to major version
+> npm update lib_name@latest_or_version_no
+
+##### check for vulerabilities
+> npm audit
+
+##### fix vulerabilities
+> npm audit fix
+
 
 ## brew Commands
 ##### update brew itself and the formulae
